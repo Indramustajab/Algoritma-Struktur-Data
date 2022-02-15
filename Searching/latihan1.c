@@ -3,25 +3,25 @@
 
 int main()
 {
-    int n,i, data[i], cari,jumlah;
+    int i, n, Data[i], cari,jumlah;
     printf("mau berapa data yang disimpan : ");
     scanf("%d", &n);
-    printf("masukkan %d integer (s): ",n);
+    printf("masukkan %d integer(s): ", n);
     for(i=0; i<n; i++)
-    scanf("%d", &data[i]);
+        scanf("%d", &Data[i]);
 
     printf("data yang mau dicari : ");
     scanf("%d", &cari);
     for(int i=0; i<n; i++)
     {
-        if (data[i]==cari)
+        if (Data[i]==cari)
         {
-            printf("angka %d ketemu dan tersimpan di %d", cari, i+1);
+            printf("angka %d ketemu dan tersimpan di lokasi %d\n", cari, i+1);
             jumlah++;
-            break;
+
         }
     }
-        if(jumlah==n)
+        if(jumlah==0)
 
         printf("angka %d tidak ketemu\n", cari);
 
