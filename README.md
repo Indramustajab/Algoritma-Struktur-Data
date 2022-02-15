@@ -1,5 +1,5 @@
 # Materi dan Tugas Algoritma Struktur Data
-[SEARCHING](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Searching/Searching)
+SEARCHING
 
 Searching adalah pencarian data yang dilakukan dengan cara menelusuri data-data yang ada. Tempat pencarian data ini dapat berupa array pencarian internal dan pencairan external.
 Ada dua jenis searching yaitu : 
