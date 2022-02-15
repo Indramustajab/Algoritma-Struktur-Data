@@ -5,12 +5,10 @@ Searching adalah pencarian data yang dilakukan dengan cara menelusuri data-data 
 Ada dua jenis searching yaitu : 
 
 1. Sequential Searching
-
-  suatu pencarian data didalam array yang akan menelusuri semua elemen-elemen array dari awal sampai akhir dan data-data yang akan ditelusuri tidak perlu diurutkan terlebih dahulu. Pencarian berurutan ini mempunyai prinsip, data yang akan dicari akan dibandingkan satu per satu secara berurutan sampai data yang dicari tersebut dapat ditemukan atau tidak ditemukan.
+suatu pencarian data didalam array yang akan menelusuri semua elemen-elemen array dari awal sampai akhir dan data-data yang akan ditelusuri tidak perlu diurutkan terlebih dahulu. Pencarian berurutan ini mempunyai prinsip, data yang akan dicari akan dibandingkan satu per satu secara berurutan sampai data yang dicari tersebut dapat ditemukan atau tidak ditemukan.
 
 2. Binary Search
-
-  suatu pencarian data dalam array yang akan menelusuri semua elemen-elemen array dari awal sampai akhir dan data-data yang akan ditelusuri tidak perlu diurutkan terlebih dahulu. Pencarian Binary search ini menggunakan prinsip :
+suatu pencarian data dalam array yang akan menelusuri semua elemen-elemen array dari awal sampai akhir dan data-data yang akan ditelusuri tidak perlu diurutkan terlebih dahulu. Pencarian Binary search ini menggunakan prinsip :
 -	Mula-mula diambil posisi awal 0 dan posisi akhir N-1. kemudian dicari posisi data tengah dengan rumus (posisi awal + posisi akhir)/2. Kemudian data yang dicari akan dibandingkan dengan data tengah.
 -	 Jika lebih kecil proses dilakukan kembali tetapi posisi akhir dianggap sama dengan posisi tengah-1.
 -	 Jika lebih besar, proses dilakukan kembali tetapi posisi awal dianggap sama dengan posisi tengah +1. Jika ada data sama, itu berarti data telah ditemukan.
