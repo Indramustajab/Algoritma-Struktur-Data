@@ -12,3 +12,5 @@ adalah suatu pencarian data dalam array yang akan menelusuri semua elemen-elemen
 -	Mula-mula diambil posisi awal 0 dan posisi akhir N-1. kemudian dicari posisi data tengah dengan rumus (posisi awal + posisi akhir)/2. Kemudian data yang dicari akan dibandingkan dengan data tengah.
 -	 Jika lebih kecil proses dilakukan kembali tetapi posisi akhir dianggap sama dengan posisi tengah-1.
 -	 Jika lebih besar, proses dilakukan kembali tetapi posisi awal dianggap sama dengan posisi tengah +1. Jika ada data sama, itu berarti data telah ditemukan.
+
+B.  [SORTING](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Sorting)
