@@ -17,6 +17,6 @@ B.  [SORTING](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main
 
 1.  [Bubble Sort](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Sorting/Bubble%20Sort.c)
  
-2.   [Selection Sort]
+2.   [Selection Sort](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Sorting/Selection%20Sort.c)
   
-3.   [Insertion Sort]
+3.   [Insertion Sort](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Sorting/Insertion%20Sort.c)
