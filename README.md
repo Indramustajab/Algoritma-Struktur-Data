@@ -14,3 +14,9 @@ adalah suatu pencarian data dalam array yang akan menelusuri semua elemen-elemen
 -	 Jika lebih besar, proses dilakukan kembali tetapi posisi awal dianggap sama dengan posisi tengah +1. Jika ada data sama, itu berarti data telah ditemukan.
 
 B.  [SORTING](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Sorting)
+
+1.  [Bubble Sort](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Sorting/Bubble%20Sort.c)
+ 
+2.   [Selection Sort]
+  
+3.   [Insertion Sort]
