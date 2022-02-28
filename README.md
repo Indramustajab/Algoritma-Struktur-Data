@@ -22,3 +22,8 @@ Sorting adalah proses pengurutan atau penyortiran sebuah data yang tersusun seca
 2. [Selection Sort](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Sorting/Selection%20Sort.c)
   
 3. [Insertion Sort](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Sorting/Insertion%20Sort.c)
+
+C.  [Tugas Challenge]()
+
+1. [Bubble Sort](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Tugas%20Challenge/Bubble%20Sort.c)
+2. [Exchange Sort]()
