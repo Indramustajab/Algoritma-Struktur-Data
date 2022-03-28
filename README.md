@@ -15,4 +15,4 @@ adalah suatu pencarian data dalam array yang akan menelusuri semua elemen-elemen
 
 B.  [Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Linked%20List)
 
-Linked list adalah sejumlah node yangdihubungkan secara linier dengan bantuan pointer.
+Linked list adalah sejumlah node yang dihubungkan secara linier dengan bantuan pointer.
