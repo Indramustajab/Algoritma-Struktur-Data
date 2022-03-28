@@ -17,7 +17,7 @@ B.  [SORTING](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/tre
 
 Sorting adalah proses pengurutan atau penyortiran sebuah data yang tersusun secara tidak beraturan hingga bisa tersusun rapi dari data yang terkecil menuju ke data paling besar atau sebaliknya.
 
-   [TUGAS INDIVIDU](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data)
+[TUGAS INDIVIDU](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data)
    
 1. [Bubble Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Sorting/Bubble%20Sort.c)
  
@@ -25,7 +25,7 @@ Sorting adalah proses pengurutan atau penyortiran sebuah data yang tersusun seca
   
 3. [Insertion Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Sorting/Insertion%20Sort.c)
 
-   [TUGAS CHALLENGE](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/tree/main/Tugas%20Challenge)
+[TUGAS CHALLENGE](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/tree/main/Tugas%20Challenge)
 
 1. [Bubble Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Tugas%20Challenge/Bubble%20Sort.c)
 2. [Exchange Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Tugas%20Challenge/Exchange%20Sort.c)
