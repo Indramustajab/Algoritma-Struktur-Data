@@ -13,3 +13,5 @@ adalah suatu pencarian data dalam array yang akan menelusuri semua elemen-elemen
 -	 Jika lebih kecil proses dilakukan kembali tetapi posisi akhir dianggap sama dengan posisi tengah-1.
 -	 Jika lebih besar, proses dilakukan kembali tetapi posisi awal dianggap sama dengan posisi tengah +1. Jika ada data sama, itu berarti data telah ditemukan.
 
+B.  [Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Linked%20List)
+
