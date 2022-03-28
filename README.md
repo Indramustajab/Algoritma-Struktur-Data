@@ -13,6 +13,23 @@ adalah suatu pencarian data dalam array yang akan menelusuri semua elemen-elemen
 -	 Jika lebih kecil proses dilakukan kembali tetapi posisi akhir dianggap sama dengan posisi tengah-1.
 -	 Jika lebih besar, proses dilakukan kembali tetapi posisi awal dianggap sama dengan posisi tengah +1. Jika ada data sama, itu berarti data telah ditemukan.
 
-B.  [Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Linked%20List)
+B.  [SORTING](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/tree/main/Sorting)
+
+    [Tugas Individu](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/tree/main/Sorting)
+
+Sorting adalah proses pengurutan atau penyortiran sebuah data yang tersusun secara tidak beraturan hingga bisa tersusun rapi dari data yang terkecil menuju ke data paling besar atau sebaliknya.
+
+1. [Bubble Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Sorting/Bubble%20Sort.c)
+ 
+2. [Selection Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Sorting/Selection%20Sort.c)
+  
+3. [Insertion Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Sorting/Insertion%20Sort.c)
+
+   [TUGAS CHALLENGE](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/tree/main/Tugas%20Challenge)
+
+1. [Bubble Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Tugas%20Challenge/Bubble%20Sort.c)
+2. [Exchange Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Tugas%20Challenge/Exchange%20Sort.c)
+
+C.  [Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Linked%20List)
 
 Linked list adalah sejumlah node yang dihubungkan secara linier dengan bantuan pointer.
