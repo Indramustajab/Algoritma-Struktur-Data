@@ -35,3 +35,5 @@ C.  [Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/
 Linked list adalah sejumlah node yang dihubungkan secara linier dengan bantuan pointer.
 
 -  [Tugas Challenge Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Linked%20List/Tugas%20Challenge%20Linked%20List.c)
+
+D. [STACK](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/STACK)
