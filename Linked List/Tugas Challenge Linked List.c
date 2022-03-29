@@ -130,7 +130,7 @@ void hapusdataakhir()
         ptr = head;
         head = ptr->next;
         free(ptr);
-        printf("\nNODE awal berhasil dihapus!\n");
+        printf("\nNODE akhir berhasil dihapus!\n");
     }
 }
 
@@ -146,7 +146,7 @@ void hapusdatasembarang()
         ptr = head;
         head = ptr->next;
         free(ptr);
-        printf("\nNODE awal berhasil dihapus!\n");
+        printf("\nNODE sembarang berhasil dihapus!\n");
     }
 }
 
