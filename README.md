@@ -38,5 +38,6 @@ Linked list adalah sejumlah node yang dihubungkan secara linier dengan bantuan p
 -  [Code Latihan 2](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Linked%20List/Latihan%20Linked%20List%202.c)
 -  [Tugas Challenge Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Linked%20List/Tugas%20Challenge%20Linked%20List.c)
 
-D. [STACK](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/STACK)
--  [Code latihan STACK](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/STACK/Latihan%20STACK.c)
+D. [Stack & Queue](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/STACK)
+-  [Code latihan Stack](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/STACK/Latihan%20STACK.c)
+-  [Code latihan Queue](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Stack%20%26%20Queue/Latihan%20Queue.c)
