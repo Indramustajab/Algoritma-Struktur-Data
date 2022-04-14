@@ -41,7 +41,7 @@ Linked list adalah sejumlah node yang dihubungkan secara linier dengan bantuan p
 D. [Stack & Queue](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/STACK)
 
 Stack atau tumpukan adalah suatu stuktur data yang penting dalam pemrograman -> eksekusi suatu fungsi menggunakan prinsip Stact. Stack juga bersifat LIFO (Last In First Out) yaitu benda yang terakhir masuk ke dalam stack akan menjadi benda pertama yang dikeluarkan dari stack. 
--  [Code latihan Stack](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/STACK/Latihan%20STACK.c)
+-  [Code latihan Stack](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Stack%20%26%20Queue/Latihan%20Stack.c)
 
 Queue merupakan antrian yang elemen pertama kali masuk ke antrian akan keluar pertama kalinya (FIFO) dan Dequeue adalah mengeluarkan satu elemen dari suatu antrian. Didalam dequeue terdapat satu buah pintu masuk di suatu ujung dan satu buah pintu keluar di ujung satunya sehingga dequeue ini membutuhkan variabel Head dan Tail
 -  [Code latihan Queue](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Stack%20%26%20Queue/Latihan%20Queue.c)
