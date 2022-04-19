@@ -38,7 +38,7 @@ Linked list adalah sejumlah node yang dihubungkan secara linier dengan bantuan p
 -  [Code Latihan 2](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Linked%20List/Latihan%20Linked%20List%202.c)
 -  [Tugas Challenge Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Linked%20List/Tugas%20Challenge%20Linked%20List.c)
 
-D. [Stack & Queue](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/STACK)
+D. [Stack & Queue](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Stack%20%26%20Queue)
 
 Stack atau tumpukan adalah suatu stuktur data yang penting dalam pemrograman -> eksekusi suatu fungsi menggunakan prinsip Stact. Stack juga bersifat LIFO (Last In First Out) yaitu benda yang terakhir masuk ke dalam stack akan menjadi benda pertama yang dikeluarkan dari stack. 
 -  [Code latihan Stack](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Stack%20%26%20Queue/Latihan%20Stack.c)
