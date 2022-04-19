@@ -30,6 +30,11 @@ Sorting adalah proses pengurutan atau penyortiran sebuah data yang tersusun seca
 1. [Bubble Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Tugas%20Challenge/Bubble%20Sort.c)
 2. [Exchange Sort](https://github.com/Indramustajab/Tugas-Algoritma-Struktur-Data/blob/main/Tugas%20Challenge/Exchange%20Sort.c)
 
+C.  [Pointer](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Pointer)
+
+Pointer (variabel penunjuk) adalah suatu variabel yang berisi alamat memori dari suatu variabel lain. Dengan kata lain, variabel pointer tidak memegang nilai, tetapi memegang alamat dari variabel lain. Pointer merupakan variabel level rendah yang dapat digunakan untuk menunjuk nilai integer, character, float, double, atau single, dan bahkan tipe-tipe data lain yang didukung oleh bahasa C.
+-   [Code](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Pointer/Code%20pointer.c)
+
 C.  [Linked List](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Linked%20List)
 
 Linked list adalah sejumlah node yang dihubungkan secara linier dengan bantuan pointer.
