@@ -1,191 +1,143 @@
 #include <stdio.h>
+#include <conio.h>
 #include <stdlib.h>
 
-*struct node{
-    int data;
-    struct node *next;
+struct Node{
+      int data;
+      Node *kiri;
+      Node *kanan;
 };
-typedef struct node node_t;
-void cetak(node_t *head)
+
+void tambah(Node **root, int dataku)
 {
-    node_t *sementara = head;
-    while(sementara != NULL)
-    {
-        printf("%d - ", sementara -> data);
-        sementara = sementara -> next;
-    }
-    printf("\n");
-}
-int main ()
-{
-    node_t n1, n2, n3;
-    node_t *head;
-    n1.data = 15;
-    n2.data = 20;
-    n3.data = 30;
-    //dibuat supaya terhubung
-    head = &n2;
-    n2.next = &n3;
-    n3.next = &n1;
-    n1.next = NULL;
-    cetak (head);
-}
-
-
-//menginput dr user
-
-struct node{
-    int data;
-    struct node* next;
-};
-struct node *head;
-
-void awal()
-{
-    //isi data di node awal
-    struct node* ptr;
-    int item;
-
-    ptr = (struct node *)malloc(sizeof(struct node));
-    if (ptr==NULL)
-    {
-        printf("OVERFLOW");
-    }
-    else
-    {
-        printf("Masukkan data:");
-        scanf("%d", &item);
-        ptr -> data = item;
-        ptr -> next = head;
-        head = ptr;
-        printf("\n data berhasil di simpan di NODE awal!");
-    }
-    system("cls");
+      if((*root) == NULL)
+      {
+            Node *baru;
+            baru = new Node;
+            baru->data = dataku;
+            baru->kiri = NULL;
+            baru->kanan = NULL;
+            (*root) = baru;
+            (*root)->kiri = NULL;
+            (*root)->kanan = NULL;
+            printf("Data bertambah!");
+      }
+      //jika data yang akan dimasukkan lebih kecil daripada elemen root, maka akan diletakkan di node sebelah kiri.
+      else if(dataku<(*root)->data)
+            tambah(&(*root)->kiri, dataku);
+     //jika data yang akan dimasukkan lebih besar daripada elemen root, maka akan diletakkan di node sebelah kanan
+      else if(dataku>(*root)->data)
+            tambah(&(*root)->kanan, dataku);
+     //jika saat dicek data yang akan dimasukkan memiliki nilai yang sama dengan data pada root
+      else if(dataku == (*root)->data)
+            printf("Data sudah ada!");
 }
 
-void akhir()
+void preOrder(Node *root)
 {
-    //isi data akhir
-    struct node* ptr, *temp;
-    int item;
-    ptr = (struct node *)malloc(sizeof(struct node));
+      if(root != NULL){
+            printf("%d ", root->data);
+            preOrder(root->kiri);
+            preOrder(root->kanan);
+      }
+}
 
-    if (ptr==NULL)
-    {
-        printf("OVERFLOW");
-    }
-    else
-    {
-        printf("Masukkan data: ");
-        scanf("%d", &item);
-        ptr ->data = item;
+void inOrder(Node *root)
+{
+      if(root != NULL){
+            inOrder(root->kiri);
+            printf("%d ", root->data);
+            inOrder(root->kanan);
+      }
+}
 
-        if (head==NULL)
-        {
-            ptr->next = NULL;
-            head=ptr;
-            printf("Berhasil simpan ke NODE!");
-        }
-        else
-        {
-            temp = head;
-            while (temp->next !=NULL)
+void postOrder(Node *root)
+{
+      if(root != NULL){
+            postOrder(root->kiri);
+            postOrder(root->kanan);
+            printf("%d ", root->data);
+      }
+}
+
+void delete(Node *root){
+    if(root == NULL)
+        return;
+    deleteTree(root->kiri);
+    deleteTree(root->kanan);
+    printf("Deleteing Node : %d\n", root->data);
+    free(root);
+    return;
+}
+
+int main()
+{
+      int pil, data;
+      Node *tree;
+      tree = NULL;
+
+      do{
+            system("cls"); //bersihkan layar
+            printf("\tPROGRAM TREE Bahasa C");
+            printf("\n\t=====================");
+            printf("\nMENU");
+            printf("\n----\n");
+            printf("1. Input Data\n");
+            printf("2. Lihat pre-order\n");
+            printf("3. Lihat in-order\n");
+            printf("4. Lihat post-order\n");
+            printf("5. Hapus isi tree\n");
+            printf("6. Keluar\n");
+            printf("Pilihan kamu? = ");
+            scanf("%d", &pil);
+            switch(pil)
             {
-                temp = temp->next;
+                case 1 :
+                    printf("\nINPUT : ");
+                      printf("\n-------");
+                      printf("\nData baru : ");
+                      scanf("%d", &data);
+                    tambah(&tree, data);
+                      break;
+                case 2 :
+                      printf("\nOUTPUT PRE ORDER : ");
+                      printf("\n------------------\n");
+                      if(tree!=NULL)
+                       //panggil fungsi untuk mencetak data secara preOrder
+                        preOrder(tree);
+                      else
+                        printf("Masih kosong!");
+                      break;
+                   case 3 :
+                      printf("\nOUTPUT IN ORDER : ");
+                      printf("\n-----------------\n");
+                      if(tree!=NULL)
+                       //panggil fungsi untuk mencetak data secara preOrder
+                        inOrder(tree);
+                      else
+                        printf("Masih kosong!");
+                      break;
+                case 4 :
+                  printf("\nOUTPUT POST ORDER : ");
+                  printf("\n------------------\n");
+                  if(tree!=NULL)
+                       //panggil fungsi untuk mencetak data secara postOrder
+                        postOrder(tree);
+                  else
+                        printf("Masih kosong!");
+                  break;
+                case 5:
+                  printf("\nDelete Data : ");
+                  printf("\n------------------\n");
+                  if(tree!=NULL)
+                       //panggil fungsi untuk hapus data 
+                        delete(tree);
+                  else
+                        printf("Masih kosong!");
             }
-            temp->next = ptr;
-            ptr->next = NULL;
-            printf("Berhasil simpan NODE akhir!");
-        }
-    }
+            getch();
+      }
+      while(pil!=6);
 }
 
-void sembarang()
-{
-    //isi data sembarang
-    struct node* ptr, *temp;
-    int item, loc, i;
-    ptr = (struct node *)malloc(sizeof(struct node));
 
-    if (ptr==NULL)
-    {
-        printf("OVERFLOW");
-    }
-    else
-    {
-        printf("Masukkan data: ");
-        scanf("%d", &item);
-        ptr ->data = item;
-        printf("Mau simpan di lokasi berapa?");
-        scanf("%d", &loc);
-        temp = head;
-        for(i=0; i<loc; i++)
-        {
-            temp = temp->next;
-            if(temp==NULL)
-            {
-                printf ("Tidak bisa simpan datamu!");
-                return;
-            }
-        }
-        ptr->next = temp->next;
-        temp->next = ptr;
-        printf("NODE berhasil disimpan!\n");
-    }
-}
-
-void cetak()
-{
-    //isi data yang di cetak
-    struct node *ptr;
-    int item, i=0, flag;
-    ptr = head;
-    if(ptr == NULL)
-    {
-        printf("Listnya kosong bossskuhhh");
-    }
-    else
-    {
-        pritnf("Cetak isi list...");
-        while(ptr !=NULL)
-        {
-            pritnf ("\n%d", ptr ->data);
-            ptr = ptr -> next;
-        }
-        printf("\n\n");
-    }
-}
-
-int main ()
-{
-    int pilihan = 0;
-    while(pilihan !=5);
-    {
-        printf("****** Menu Latihan Linked List******");
-        printf("\n=====================================");
-        printf("\n1. Input data di awal \n2. Input data di akhir \n3. Input data sembbarang \n4. Lihat data dalam llinked LIst \n5.KELUAR");
-        printf("Pilihanmu: ");
-        scanf("%d", &pilihan);
-
-        switch(pilihan)
-        {
-        case 1:
-            awal();
-            break;
-        case 2:
-            akhir();
-            break;
-        case 3:
-            sembarang();
-            break;
-        case 4:
-            cetak();
-            break;
-        case 5:
-            exit(0);
-            break;
-        default:
-            printf("Masukkan pilihan yang benar!");
-        }
-    }
-}
