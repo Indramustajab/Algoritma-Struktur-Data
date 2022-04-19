@@ -45,3 +45,6 @@ Stack atau tumpukan adalah suatu stuktur data yang penting dalam pemrograman -> 
 
 Queue merupakan antrian yang elemen pertama kali masuk ke antrian akan keluar pertama kalinya (FIFO) dan Dequeue adalah mengeluarkan satu elemen dari suatu antrian. Didalam dequeue terdapat satu buah pintu masuk di suatu ujung dan satu buah pintu keluar di ujung satunya sehingga dequeue ini membutuhkan variabel Head dan Tail
 -  [Code latihan Queue](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Stack%20%26%20Queue/Latihan%20Queue.c)
+
+E. [Tree](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Tree)
+-  [Code](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Tree/Code%20Tree.c)
