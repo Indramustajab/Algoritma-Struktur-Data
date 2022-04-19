@@ -54,4 +54,4 @@ Queue merupakan antrian yang elemen pertama kali masuk ke antrian akan keluar pe
 E. [Tree](https://github.com/Indramustajab/Algoritma-Struktur-Data/tree/main/Tree)
 
 Kumpulan node yang saling terhubung satu sama lain dalam suatu kesatuan yang membentuk layakya struktur sebuah pohon. Struktur pohon adalah suatu cara merepresentasikan suatu struktur hirarki (one-to-many) secara grafis yang mirip sebuah pohon, walaupun pohon tersebut hanya tampak sebagai kumpulan node-node dari atas ke bawah.
--  [Code](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Tree/Code%20Tree.c)
+-  [Code Tugas tree](https://github.com/Indramustajab/Algoritma-Struktur-Data/blob/main/Tree/Code%20Tree.c)
