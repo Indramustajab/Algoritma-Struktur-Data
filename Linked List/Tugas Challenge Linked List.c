@@ -120,32 +120,50 @@ void hapusdataawal()
 
 void hapusdataakhir()
 {
-    struct node *ptr;
-    if(head == NULL)
+  struct node * ptr;
+ 
+    if(ptr == NULL)
     {
-        printf("\nList kosong bro!\n");
+        printf("\nTidak ada data\n");
     }
     else
     {
-        ptr = head;
-        head = ptr->next;
-        free(ptr);
+        ptr = data;
+        ptr = data->loc;    
+        ptr->temp = NULL;     
+        free(ptr);       
         printf("\nNODE akhir berhasil dihapus!\n");
     }
 }
 
 void hapusdatasembarang()
 {
-   struct node *ptr;
-    if(head == NULL)
+ struct node *ptr;
+    int i;
+ 
+    ptr = temp;
+    for(i=1; i<head && ptr!=NULL; i++)
     {
-        printf("\nList kosong bro!\n");
+        ptr = ptr->next;
+    }
+ 
+    if(pos == 1)
+    {
+        hapusdataawal();
+    }
+    else if(ptr == data)
+    {
+        hapusdataakhir();
+    }
+    else if(item != NULL)
+    {
+       ptr->loc->next = item->temp;
+        ptr->next->loc = item->loc;
+ 
+        free(ptr); 
     }
     else
     {
-        ptr = head;
-        head = ptr->next;
-        free(ptr);
         printf("\nNODE sembarang berhasil dihapus!\n");
     }
 }
